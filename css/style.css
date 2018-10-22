@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    
+    background: url("../Fanpage_Pictures/Gallifreyan_Blue_on_Black.ai_mirror.png");
 }
 a {
     text-decoration: none;
@@ -12,8 +12,35 @@ a {
 
 .main {
     height: 100%;
+    
 }
 .social-image{
     width: 30px;
     margin: 15px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.footer{
+     display: flex;
+    justify-content: space-around; 
+    text-align: center;
+}
+.leftPane{
+    width: 30%;
+    height: 70%;
+}
+p{
+    
 }
