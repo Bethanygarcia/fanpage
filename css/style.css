@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    
 }
 
 body {
@@ -24,6 +25,8 @@ a {
     justify-content: center;
     color: white;
     background-color: black;
+    font-size: 50px;
+    
 }
 .navbar{
     display: flex;
@@ -42,5 +45,14 @@ a {
     height: 70%;
 }
 p{
-    
+  color: white;
+  background-color: black;
+  font-size: 30px;
+}
+.thumbnail-image{
+    width: 250px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
 }
