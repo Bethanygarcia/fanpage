@@ -59,6 +59,7 @@ video{
   color: white;
   background-color: black;
   font-size: 30px;
+  font-family:'Gloria Hallelujah', cursive; 
 }
 .thumbnail-image{
     width: 450px;
