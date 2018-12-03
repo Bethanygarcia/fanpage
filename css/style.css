@@ -1,16 +1,24 @@
 html {
-    height: 100%;
-    
+    width: 100%;
 }
 
 body {
     height: 100%;
+    width:100%;
     background: url("../Fanpage_Pictures/Gallifreyan_Blue_on_Black.ai_mirror.png");
 }
 a {
     text-decoration: none;
 }
-
+h2{
+    Color: white;
+    background-color: black;
+}
+img{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
 .main {
     height: 100%;
     
@@ -26,7 +34,7 @@ a {
     color: white;
     background-color: black;
     font-size: 50px;
-    
+    padding: 20px;
 }
 .navbar{
     display: flex;
@@ -34,25 +42,51 @@ a {
     text-align: center;
     color: white;
     background-color: black;
+    font-family: 'Bangers', cursive;
 }
-.footer{
-     display: flex;
-    justify-content: space-around; 
-    text-align: center;
+video{
+    display: flex;
+    justify-content: flex-end;
 }
 .leftPane{
     width: 30%;
     height: 70%;
 }
-p{
+.rightPane{
+    width: 60%;
+}
+.left{
   color: white;
   background-color: black;
   font-size: 30px;
 }
 .thumbnail-image{
-    width: 250px;
-    height: 70%;
+    width: 450px;
+    height: 100%;
     display: flex;
     justify-content: center;
     margin: 100px;
+    margin-left: 110px;
+    background-color: black;
+    border-radius: 10%;
+    border: solid 5px white;
+}
+.thumb{
+    font-size: medium;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-left: 145px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.thumbnail{
+    width: 60%;
+    align-items: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
